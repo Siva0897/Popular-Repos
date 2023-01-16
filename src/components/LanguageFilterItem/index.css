@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.filter-btn {
+  height: 40px;
+  width: 150px;
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.active-btn {
+  border: 2px solid blue;
+  border-radius: 10px;
+}

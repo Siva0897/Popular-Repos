@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: black;
+}
+.bg-container {
+  height: 90vh;
+  width: 60vw;
+  background-color: white;
+  text-align: center;
+  overflow-y: auto;
+}
+.title {
+  font-family: 'Lobster';
+  font-size: 45px;
+}
+.filter-container {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.repo-list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
